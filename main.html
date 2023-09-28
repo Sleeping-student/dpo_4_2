@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="main_style.css">
+</head>
+<body>
+  <!-- Шапка -->
+    <header class="site-header">
+      <div class="site-identity">
+          <h1><a href="#">Соц Сеть</a></h1>
+      </div>
+      <nav class="site-navigation">
+          <ul class="nav">
+              <li><a href="main.html">Главная</a></li>
+              <li><a href="profile.html">Профиль</a></li>
+              <li><a href="#">Подписки</a></li>
+              <li><a href="#">Сообщения</a></li>
+          </ul>
+      </nav>
+    </header>
+
+<!-- Блоки вывода данных -->
+  <div class="container">
+    <!-- Первый блок -->
+    <div class="data-block">
+      <input type="text" class="search-input" placeholder="Поиск...">
+      <select class="sort-select">
+        <option value="asc">За день</option>
+        <option value="desc">За неделю</option>
+      </select>
+      <label><input type="checkbox" class="filter-checkbox">Только мои подписки</label>
+      <h2>Блок 1</h2>
+      <p>Данные из базы данных (посты - картинки, картинки+текст)</p>
+    </div>
+
+    <!-- Второй блок -->
+    <div class="data-block">
+      <input type="text" class="search-input" placeholder="Поиск...">
+      <select class="sort-select">
+        <option value="asc">Новые</option>
+        <option value="desc">Старые</option>
+      </select>
+      <label><input type="checkbox" class="filter-checkbox">Только избранные</label>
+      <h2>Блок 2</h2>
+      <p>Данные из базы данных (Текст - сообщения)</p>
+    </div>
+  </div>
+  
+</body>
+</html>

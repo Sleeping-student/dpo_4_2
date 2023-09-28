@@ -7,14 +7,14 @@ body {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #4759d0;
 }
 a:hover {
-  color: rgb(179, 179, 179);
+  color: rgb(122, 178, 189);
 }
 /*шапка*/
 .site-header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #5d6976;
     padding: 0.5em 1em;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ a:hover {
   display: flex;
 } 
 .data-block {
-  border: 1px solid #000;
+  border: 1px solid #262838;
   padding: 10px;
   margin-bottom: 10px;
   width: 50vw;
